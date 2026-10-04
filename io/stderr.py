@@ -1,3 +1,3 @@
 import sys
 
-sys.stderr.write("err; 31notfound\n")
+sys.stderr.write("error; 122 not found\n")

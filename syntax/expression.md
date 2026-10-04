@@ -1,6 +1,6 @@
 ## 1. Literal Expression
 
-Doğrudan değerler.
+Direct values.
 
 ```python
 10
@@ -14,7 +14,7 @@ None
 
 ## 2. Arithmetic Expression
 
-Matematik işlemleri.
+Mathematical operations.
 
 ```python
 x + y
@@ -26,7 +26,7 @@ x ** 2
 
 ## 3. Comparison Expression
 
-Karşılaştırma yapar.
+Performs a comparison.
 
 ```python
 x > 10
@@ -34,7 +34,7 @@ x == 5
 x != 0
 ```
 
-Sonuç:
+Result:
 
 ```python
 True / False
@@ -44,13 +44,13 @@ True / False
 
 ## 4. Logical Expression
 
-Mantıksal işlemler.
+Logical operations.
 
 ```python
 x > 0 and x < 10
 ```
 
-Operatörler:
+Operators:
 
 ```python
 and
@@ -62,7 +62,7 @@ not
 
 ## 5. Function Call Expression
 
-Fonksiyon çağırma.
+Calls a function.
 
 ```python
 len("Python")
@@ -72,9 +72,9 @@ len("Python")
 
 ## 6. Collection Expression
 
-Veri yapısı oluşturur.
+Creates a data structure.
 
-Liste:
+List:
 
 ```python
 [1, 2, 3]
@@ -102,7 +102,7 @@ Dictionary:
 
 ## 7. Index Expression
 
-Eleman erişimi.
+Accesses an element.
 
 ```python
 list[0]
@@ -112,7 +112,7 @@ list[0]
 
 ## 8. Slice Expression
 
-Parça alma.
+Takes a slice.
 
 ```python
 text[0:5]
@@ -122,7 +122,7 @@ text[0:5]
 
 ## 9. Lambda Expression
 
-Anonim fonksiyon.
+Anonymous function.
 
 ```python
 lambda x: x + 1
@@ -132,7 +132,7 @@ lambda x: x + 1
 
 ## 10. Conditional Expression
 
-Tek satır if.
+Single-line if.
 
 ```python
 "yes" if x > 0 else "no"
@@ -142,11 +142,10 @@ Tek satır if.
 
 ## 11. Assignment Expression
 
-Walrus operatörü.
+Walrus operator.
 
 ```python
 (x := 10)
 ```
 
 ---
-

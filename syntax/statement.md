@@ -1,6 +1,6 @@
-## 1. Assignment Statement (Atama)
+## 1. Assignment Statement
 
-Değişkene değer atar.
+Assigns a value to a variable.
 
 ```python
 x = 10
@@ -9,38 +9,38 @@ name = "Python"
 
 ---
 
-## 2. Conditional Statement (Koşul)
+## 2. Conditional Statement
 
-Programın karar vermesini sağlar.
+Allows the program to make decisions.
 
 ```python
 if x > 0:
-    print("Pozitif")
+    print("Positive")
 elif x == 0:
-    print("Sıfır")
+    print("Zero")
 else:
-    print("Negatif")
+    print("Negative")
 ```
 
 ---
 
 ## 3. Match Statement
 
-Değer eşleştirme yapar.
+Matches a value.
 
 ```python
 match command:
     case "start":
-        print("Başladı")
+        print("Started")
     case "stop":
-        print("Durdu")
+        print("Stopped")
 ```
 
 ---
 
-## 4. Loop Statement (Döngü)
+## 4. Loop Statement
 
-Tekrarlı işlemler için kullanılır.
+Used for repeated operations.
 
 ### For
 
@@ -60,7 +60,7 @@ while x < 10:
 
 ## 5. Function Statement
 
-Fonksiyon tanımlar.
+Defines a function.
 
 ```python
 def add(a, b):
@@ -71,7 +71,7 @@ def add(a, b):
 
 ## 6. Class Statement
 
-Sınıf tanımlar.
+Defines a class.
 
 ```python
 class User:
@@ -82,13 +82,13 @@ class User:
 
 ## 7. Import Statement
 
-Modül ekler.
+Adds a module.
 
 ```python
 import math
 ```
 
-veya
+or
 
 ```python
 from math import pi
@@ -98,24 +98,24 @@ from math import pi
 
 ## 8. Exception Handling Statement
 
-Hata yakalama yapar.
+Catches errors.
 
 ```python
 try:
     x = 10 / 0
 
 except:
-    print("Hata")
+    print("Error")
 
 finally:
-    print("Bitti")
+    print("Finished")
 ```
 
 ---
 
 ## 9. Return Statement
 
-Fonksiyondan değer döndürür.
+Returns a value from a function.
 
 ```python
 def square(x):
@@ -126,11 +126,11 @@ def square(x):
 
 ## 10. Control Flow Statement
 
-Döngü akışını kontrol eder.
+Controls loop flow.
 
 ### break
 
-Döngüyü bitirir.
+Ends the loop.
 
 ```python
 break
@@ -138,7 +138,7 @@ break
 
 ### continue
 
-Sonraki adıma geçer.
+Moves to the next step.
 
 ```python
 continue
@@ -146,7 +146,7 @@ continue
 
 ### pass
 
-Boş bırakır.
+Does nothing.
 
 ```python
 pass
@@ -154,31 +154,30 @@ pass
 
 ---
 
-# Python Statement Listesi
+# Python Statement List
 
-| Statement | Açıklama |
+| Statement | Description |
 |-|-|
-| `=` | Atama |
-| `if` | Koşul |
-| `elif` | Ek koşul |
-| `else` | Alternatif |
-| `match` | Eşleştirme |
-| `for` | Döngü |
-| `while` | Döngü |
-| `def` | Fonksiyon |
-| `class` | Sınıf |
-| `import` | Modül ekleme |
-| `from` | Modülden alma |
-| `try` | Hata kontrolü |
-| `except` | Hata yakalama |
-| `finally` | Son işlem |
-| `with` | Kaynak yönetimi |
-| `return` | Değer döndürme |
-| `raise` | Hata oluşturma |
-| `assert` | Kontrol |
-| `break` | Döngü kırma |
-| `continue` | Devam |
-| `pass` | Boş işlem |
+| `=` | Assignment |
+| `if` | Condition |
+| `elif` | Additional condition |
+| `else` | Alternative |
+| `match` | Matching |
+| `for` | Loop |
+| `while` | Loop |
+| `def` | Function |
+| `class` | Class |
+| `import` | Importing a module |
+| `from` | Importing from a module |
+| `try` | Error control |
+| `except` | Error handling |
+| `finally` | Final operation |
+| `with` | Resource management |
+| `return` | Returning a value |
+| `raise` | Raising an error |
+| `assert` | Check |
+| `break` | Breaking the loop |
+| `continue` | Continue |
+| `pass` | No operation |
 
 ---
-

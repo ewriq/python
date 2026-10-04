@@ -1,5 +1,5 @@
 import sys
 
-osbir = sys.stdin.readline()
+input_line = sys.stdin.readline()
 
-print(osbir)
+print(input_line)

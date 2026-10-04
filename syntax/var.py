@@ -1,10 +1,10 @@
 int = 1
 float = 2.0
-string = "hello"
+text = "hello"
 
 boolean = True
 
 empty = None 
 
 
-#const pyde yok const için DATABASE_USER gibi büyük harfle yazcan
+# Python has no const; use uppercase names such as DATABASE_USER.
